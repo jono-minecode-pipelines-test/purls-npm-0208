@@ -1,0 +1,74 @@
+{
+    "name": "00-js",
+    "version": "0.2.0",
+    "keywords": [
+        "Double Zero",
+        "00",
+        "Double Zero Email API"
+    ],
+    "author": {
+        "name": "Nicholas"
+    },
+    "license": "MIT",
+    "_id": "00-js@0.2.0",
+    "maintainers": [
+        {
+            "name": "nic13gamer",
+            "email": "nicholaseletro@gmail.com"
+        }
+    ],
+    "homepage": "https://www.double-zero.cloud/",
+    "bugs": {
+        "url": "https://github.com/Nic13Gamer/00-node/issues"
+    },
+    "dist": {
+        "shasum": "b382e9c04604cee0064bd556e11658d07e6b02c9",
+        "tarball": "https://registry.npmjs.org/00-js/-/00-js-0.2.0.tgz",
+        "fileCount": 7,
+        "integrity": "sha512-k71Xh4NlsCsrugm9GwMgXiMTRetxSca7pAmXpvW/gAhTFRcejR0WS32QybXcbyPTUadENkvGVPSKTFdJS3yxow==",
+        "signatures": [
+            {
+                "sig": "MEQCIAaRRWV6obaa2TPMjlkhXfujqS8Lpu5888r5IOjQEIA2AiAQ1oItxE8xtoVlH6mCZI4UzIJFjZeESpH/k6IyXBhCoQ==",
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+            }
+        ],
+        "unpackedSize": 17941
+    },
+    "main": "dist/index.js",
+    "_from": "file:00-js-0.2.0.tgz",
+    "types": "dist/index.d.ts",
+    "module": "dist/index.mjs",
+    "scripts": {
+        "lint": "tsc",
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "release": "pnpm run build && changeset publish"
+    },
+    "_npmUser": {
+        "name": "nic13gamer",
+        "email": "nicholaseletro@gmail.com"
+    },
+    "_resolved": "/tmp/de89367788d740188ab9d38d9768badb/00-js-0.2.0.tgz",
+    "_integrity": "sha512-k71Xh4NlsCsrugm9GwMgXiMTRetxSca7pAmXpvW/gAhTFRcejR0WS32QybXcbyPTUadENkvGVPSKTFdJS3yxow==",
+    "repository": {
+        "url": "git+https://github.com/Nic13Gamer/00-node.git",
+        "type": "git"
+    },
+    "_npmVersion": "10.7.0",
+    "description": "Node.js library for interacting with the 00 API.",
+    "directories": {},
+    "_nodeVersion": "20.15.1",
+    "publishConfig": {
+        "access": "public"
+    },
+    "_hasShrinkwrap": false,
+    "devDependencies": {
+        "tsup": "^8.1.0",
+        "typescript": "^5.5.3",
+        "@types/node": "^20.14.10",
+        "@changesets/cli": "^2.27.7"
+    },
+    "_npmOperationalInternal": {
+        "tmp": "tmp/00-js_0.2.0_1721859181311_0.13172968982818456",
+        "host": "s3://npm-registry-packages"
+    }
+}
