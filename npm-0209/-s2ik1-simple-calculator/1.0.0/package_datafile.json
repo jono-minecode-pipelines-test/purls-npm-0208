@@ -1,0 +1,55 @@
+{
+    "name": "-s2ik1-simple-calculator",
+    "version": "1.0.0",
+    "description": "A simple calculator with typescript, node.js and inquirer",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "-s2ik1-simple-calculator": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+        "name": "Sikandar Ali"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "inquirer": "^9.2.17"
+    },
+    "devDependencies": {
+        "@types/inquirer": "^9.0.7"
+    },
+    "_id": "-s2ik1-simple-calculator@1.0.0",
+    "_nodeVersion": "20.11.1",
+    "_npmVersion": "10.2.4",
+    "dist": {
+        "integrity": "sha512-GzLmInfgUdxSrdh72IDTKRN50pN2R4Lk8ynq8UqIAv5tLQ2pCty739tuXrPrFSsGz0qOlZ+H/vE7T+G2uHl4Iw==",
+        "shasum": "4326fb3c90529edaf87f4afd6733808f29efa977",
+        "tarball": "https://registry.npmjs.org/-s2ik1-simple-calculator/-/-s2ik1-simple-calculator-1.0.0.tgz",
+        "fileCount": 4,
+        "unpackedSize": 14681,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQD87UafsC5vl9GVQXEccuZiMxmpoVJoQG4CXjcEAePNEwIgdm+1XJYezFemdbMsdiAvpRAREb9uMO2EXmaeTmRGYpQ="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "sikandar112",
+        "email": "ks045239@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "sikandar112",
+            "email": "ks045239@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/-s2ik1-simple-calculator_1.0.0_1711955882828_0.09049993335572348"
+    },
+    "_hasShrinkwrap": false
+}

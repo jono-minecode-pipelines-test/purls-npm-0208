@@ -1,0 +1,74 @@
+{
+    "name": "00-js",
+    "version": "0.4.1",
+    "description": "Node.js library for interacting with the 00 API.",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nic13Gamer/00-node.git"
+    },
+    "keywords": [
+        "Double Zero",
+        "00",
+        "Double Zero Email API"
+    ],
+    "homepage": "https://www.double-zero.cloud/",
+    "author": {
+        "name": "Nicholas"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@changesets/cli": "^2.27.7",
+        "@types/node": "^20.14.10",
+        "tsup": "^8.1.0",
+        "typescript": "^5.5.3"
+    },
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "release": "pnpm run build && changeset publish",
+        "lint": "tsc"
+    },
+    "_id": "00-js@0.4.1",
+    "bugs": {
+        "url": "https://github.com/Nic13Gamer/00-node/issues"
+    },
+    "_integrity": "sha512-sZmc/WBHoxgCMCJdRC6OeGm2rtKNHEWsp18ixR3hc9joV3mgyEB1+qOykgp8V/MQPhdSACMQdacfqhGKrYH+Gw==",
+    "_resolved": "/tmp/a2244c63d5b68f6af60c60b3275e454f/00-js-0.4.1.tgz",
+    "_from": "file:00-js-0.4.1.tgz",
+    "_nodeVersion": "20.17.0",
+    "_npmVersion": "10.8.2",
+    "dist": {
+        "integrity": "sha512-sZmc/WBHoxgCMCJdRC6OeGm2rtKNHEWsp18ixR3hc9joV3mgyEB1+qOykgp8V/MQPhdSACMQdacfqhGKrYH+Gw==",
+        "shasum": "c9dcc018bbdf8591e56420dd1f743b0a51c7776b",
+        "tarball": "https://registry.npmjs.org/00-js/-/00-js-0.4.1.tgz",
+        "fileCount": 7,
+        "unpackedSize": 27333,
+        "signatures": [
+            {
+                "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+                "sig": "MEUCIQC3P5n78fh4vClFUgVGekYleeGOD36PEo5DXWkHlDQG6QIgRdAoqmDWl0+QwjbG/bORoOaKnL198uGZTR2O16HELlU="
+            }
+        ]
+    },
+    "_npmUser": {
+        "name": "nic13gamer",
+        "email": "nicholaseletro@gmail.com"
+    },
+    "directories": {},
+    "maintainers": [
+        {
+            "name": "nic13gamer",
+            "email": "nicholaseletro@gmail.com"
+        }
+    ],
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/00-js_0.4.1_1725904862236_0.2883115775212659"
+    },
+    "_hasShrinkwrap": false
+}
